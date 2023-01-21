@@ -3,9 +3,9 @@
 '''
 @author Swati Shikha
 '''
-
 def calculate_area(radius):
-    area=3.14*radius*radius
+    a=radius**2
+    area=3.14*a
     return  area
 
 value=calculate_area(5)
