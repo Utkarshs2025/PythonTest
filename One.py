@@ -3,11 +3,13 @@
 '''
 @author Swati Shikha
 '''
+
+'''
 def calculate_area(radius):
     a=radius**2
     area=3.14*a
     return  area
+'''
+value=lambda radius:3.14*radius*radius
 
-value=calculate_area(5)
-
-print('The area is : '+str(value)+'cm square')
+print('The area is : '+str(value(5))+'cm square')
